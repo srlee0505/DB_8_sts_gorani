@@ -10,6 +10,7 @@ public class LoginController {
 	@GetMapping("login")
 	@ResponseBody
 	public String login() {
+		System.out.println("modify");
 		return "Hello";
 	}
 }
