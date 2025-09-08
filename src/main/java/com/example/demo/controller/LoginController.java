@@ -11,8 +11,8 @@ public class LoginController {
 	@ResponseBody
 	public String login() {
 		System.out.println("modify");
-		System.out.println("Donhwa Babo");
 		System.out.println("add");
+		System.out.println("Donhwa Babo");
 		return "Hello";
 	}
 }
