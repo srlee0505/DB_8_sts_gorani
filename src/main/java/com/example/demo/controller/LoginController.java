@@ -12,6 +12,7 @@ public class LoginController {
 	public String login() {
 		System.out.println("modify");
 		System.out.println("Donhwa Babo");
+		System.out.println("add");
 		return "Hello";
 	}
 }
